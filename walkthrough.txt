@@ -1,0 +1,45 @@
+#1 Make project
+#2 Add firebase SDK : https://firebase.google.com/docs/web/setup ( npm install --save firebase ) // use sudo npm install --save firebase if you need admin rights
+#3 Create firebase + register app : https://console.firebase.google.com/
+  #3.1 Copy firebase SDK information (login, api key, etc)
+
+#4 Create FireStore database ( go to test mode )
+  #4.1 Create a collection(users, projects, products, etc)
+
+#5 Add firebase.js file to src folder
+#6 
+#7 
+#8 
+#9 Add bootstrap css only to index.html : https://getbootstrap.com/docs/4.3/getting-started/introduction/
+#10 
+#11 
+#12 
+#13 
+#14 
+#15 
+#16 
+
+
+
+
+
+#3.1 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA0t6esbTVdIsM-ltG-680skCz_95BkiQI",
+    authDomain: "vue3-fire-crud.firebaseapp.com",
+    projectId: "vue3-fire-crud",
+    storageBucket: "vue3-fire-crud.appspot.com",
+    messagingSenderId: "125005528431",
+    appId: "1:125005528431:web:7e188c55a4f7e14eed7c9a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
